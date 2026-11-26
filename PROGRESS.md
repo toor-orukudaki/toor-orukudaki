@@ -61,3 +61,8 @@ Reste à confirmer : bash demo.sh tourne sans erreur.
 
 
 Idées suivantes : interface web locale (Python), analyse RS, salt aléatoire pour les positions.
+
+Jour 7 (interface) : site web local Flask (web/app.py), 3 onglets Cacher / Extraire / Analyser, appelle build/stego ; écoute sur 127.0.0.1 uniquement.
+Dépendance : sudo apt install python3-flask ; lancement : python3 web/app.py puis http://localhost:5000.
+Sécurité : mot de passe par variable d'environnement, dossiers temporaires, formats BMP/PNG/WAV, 32 Mo max, HTML échappé.
+Projet : toutes les phases du plan sont faites ; reste à publier la dernière version (git push).
