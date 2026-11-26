@@ -1,0 +1,8 @@
+build/
+out/
+*.exe
+*.o
+secret.txt
+plein.bin
+gros.bin
+rapport_*.md
