@@ -65,4 +65,9 @@ Idées suivantes : interface web locale (Python), analyse RS, salt aléatoire po
 Jour 7 (interface) : site web local Flask (web/app.py), 3 onglets Cacher / Extraire / Analyser, appelle build/stego ; écoute sur 127.0.0.1 uniquement.
 Dépendance : sudo apt install python3-flask ; lancement : python3 web/app.py puis http://localhost:5000.
 Sécurité : mot de passe par variable d'environnement, dossiers temporaires, formats BMP/PNG/WAV, 32 Mo max, HTML échappé.
+
 Projet : toutes les phases du plan sont faites ; reste à publier la dernière version (git push).
+Jour 7 (fin) : site web amélioré : thème espace, glisser-déposer + aperçu image/audio, jauge de capacité (/capacity), mots de passe (afficher, générer, confirmer), copier le message, verdict avec icône.
+Fichier modifié : web/app.py (nouvelle route /capacity, confirmation côté serveur).
+Tests faits : 20 contrôles serveur (faux stego) + 14 contrôles JS (jsdom) ; reste à valider dans ton navigateur avec le vrai programme.
+Projet : toutes les phases du plan + interface web terminées ; publier avec git push.
