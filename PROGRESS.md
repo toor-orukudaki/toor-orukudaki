@@ -55,3 +55,9 @@ Env : WSL Ubuntu, make test / make, binaire build/stego.
 
 
 Prochain : 6D README, démo, mise en ligne GitHub (.gitignore, licence).
+
+Jour 6D terminé : projet publié sur GitHub (toor-orukudaki/toor-orukudaki, dépôt de profil), e-mail noreply, README + LICENSE MIT + demo.sh.
+Reste à confirmer : bash demo.sh tourne sans erreur.
+
+
+Idées suivantes : interface web locale (Python), analyse RS, salt aléatoire pour les positions.

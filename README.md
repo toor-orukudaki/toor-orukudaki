@@ -72,3 +72,12 @@ t'appartiennent ou avec l'accord de leur proprietaire.
 ## Licence
 
 MIT (voir le fichier LICENSE).
+
+## Interface web
+
+    sudo apt install python3-flask
+    python3 web/app.py
+
+Puis ouvre http://localhost:5000 : trois onglets (Cacher, Extraire, Analyser). Le serveur
+n'ecoute que sur ton ordinateur (127.0.0.1) ; les fichiers sont traites dans un dossier
+temporaire efface juste apres.
